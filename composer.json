@@ -1,6 +1,6 @@
 {
     "name": "hexawebsystems/laravel-hexa-package-pixabay",
-    "description": "Pixabay stock photo API integration for the Hexa Core framework.",
+    "description": "Pixabay — stock photo and video API integration for media search, download, and content sourcing.",
     "type": "library",
     "license": "proprietary",
     "require": {
