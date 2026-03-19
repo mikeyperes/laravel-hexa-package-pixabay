@@ -9,7 +9,7 @@ class PixabayServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        ->mergeConfigFrom(__DIR__ . '/../../config/pixabay.php', 'pixabay');
+        $this->mergeConfigFrom(__DIR__ . '/../../config/pixabay.php', 'pixabay');
         $this->app->singleton(PixabayService::class);
     }
 
